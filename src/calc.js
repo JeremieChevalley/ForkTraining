@@ -8,12 +8,17 @@ function multiplication(a, b) {
     return produit;
 }
 
+function soustraction(a, b) {
+    let somme_sous = a - b;
+    return somme_sous
+}
 function main() {
     let x = 5;
     let y = 10;
     let resultatAdd = addition(x, y);
     let resultatMult = multiplication(x, y);
-    console.log(`Addition: ${resultatAdd}, Multiplication: ${resultatMult}`);
+    let resulatSous = soustraction(x, y);
+    console.log(`Addition: ${resultatAdd}, Multiplication: ${resultatMult}, Soustraction: ${resulatSous}`);
 }
 
 main();
